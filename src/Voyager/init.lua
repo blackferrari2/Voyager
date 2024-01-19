@@ -1,11 +1,11 @@
 local Webhook = {}
 Webhook.__index = Webhook
 
-local Message = require(script.Parent.Message)
-local EditedMessage = require(script.Parent.EditedMessage)
-local ThreadMessage = require(script.Parent.ThreadMessage)
-local EditedThreadMessage = require(script.Parent.EditedThreadMessage)
-local OptionalExecuteInfo = require(script.Parent.OptionalExecuteInfo)
+local Message = require(script.Message)
+local EditedMessage = require(script.EditedMessage)
+local ThreadMessage = require(script.ThreadMessage)
+local EditedThreadMessage = require(script.EditedThreadMessage)
+local OptionalExecuteInfo = require(script.OptionalExecuteInfo)
 
 type RatelimitInfo = {
 	XRatelimitLimit : number?,
